@@ -1,0 +1,72 @@
+1 what is platform independent?explain it using 100 or more words
+java is a high level object oriented programing language.platform indedenpent is one of the features of java.
+in java javac will covnert source code into something called byte code which is platform independent.byte code is .class files,they are platform independent which means it is written once and can be used  in any platform.
+platform is nothing but hardware +software. byte code is only understood by JRE.JAK JRE are platform dependenr only byte code is platform independent.
+ 
+ 2.what is the diffrence between primitive snd non primitive data type
+ 
+     primitive data types do not have state and behaviour.There are 8 primitive data types in java.
+	 non primitive data types have both state and behaviour.every class we create is a an non primitive.string and array are also non primitive.
+	 
+	 3 explain class and its members with example.
+	 
+	 class is container to store veriables and methods.members of the class are variables and methods.
+	variable is reference to the value used in the program.methods in set of statements.
+	variables can be 4 types 1.static 2.instance 3.local 4.parameter
+	methods can be two types:1.static 2.instance
+	let us consider can example
+	class student{                   
+	static String name;
+	static String email;
+	static long mobile;
+	static void displayDetails(){}
+	}
+	In the below example student is the class.
+	name,email,moblie and displayDetails are the members of the class.
+	
+	  4 write a program to accept  two inputs total  marks and recived marks calculate percentage and return
+	         class Percentage{
+			 static int totalMarks;
+			 static int recivedMarks;
+			 static float calculatePrecentage()
+			 {
+			 float result=(recivedMarks/totalMarks)*100;
+			 return result;
+			 }
+			 
+			 
+			 
+			 5. remove duplicate in an below array
+			 int[] values={34,78,90,53,34,11,53,15,78,81,8,4,67,11}
+			 
+			 class Duplicate{
+			 static int[] values={34,78,90,53,34,11,53,15,78,81,8,4,67,11};
+			 static void duplicate(int value){
+			 for(int index=0;index<values.length;index++)
+			 { 
+			 if(values[index]=value){
+			 values[index]=null;
+			 }
+			 System.out.println("duplicate value is deleted"); 
+			 }
+			 }
+			 }
+			 6 .explain main method in with the memory it excecutes it
+			 
+			 
+			 main method is wriiten as
+			 public static void main (String[] args){
+			 }
+			 shen we try to execute a java program JVM looks for the main method.
+			 wghile executing the main method a frame is created in the stack for the main memory.and frame for other methods in the class is created created above the main frame.
+after the program execution end main frame and all other frames are removed from the heap memory.
+7 program to find reverse of a number
+8.program to find hours into seconds
+9.program to find  armstrong number
+			 
+			 
+			 
+			 
+	
+	
+
